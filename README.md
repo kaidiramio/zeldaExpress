@@ -1,6 +1,6 @@
 # Personal Zelda Express App
 
-![zelda](https://gifs.com/gif/tsting-testing-Rlr7O0)
+![zelda](https://gifs.com/gif/Rlr7O0)
 
 Help this user out with their quest on the N64 in the Legend of Zelda: Ocarina of Time N64. Users can provide their email and add their response. Don't forget to favorite using the heart icon to show your support for a message you like!
 
