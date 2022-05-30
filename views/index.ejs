@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zelda Forum</title>
+  <!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- tried having a smile change color but could not get it to work will try again -->
+  
+   <!-- thinking legend of Zelda forum or n64 forum -->
+
+
+  <header id="quote">
+    <h1>The Legend of Zelda Forum</h1>
+  </header>
+<!-- 
+  <section class="leftSection">
+    
+  </section> -->
+  <section id="top">
+    <h3 class="welcome">Welcome to the Legend of Zelda forum</h3>
+    <h3>"Shadow and Light are two sides of the same coin <span id="colorB">... One cannot exist without the other."<span id="topSize">-Zelda</span></span></h3>
+  </section>
+  <main>
+    <section id="addFact">
+      
+      <h3 class="thread">Thread: The Legend of Zelda: Ocarina of Time N64 Help </h3>
+      <!-- <p>Find some facts here if you're not sure:</p> -->
+      <!-- <span><a class="linkZ" href="https://www.gamespot.com/gallery/26-facts-about-the-legend-of-zelda-that-you-probab/2900-28/#5" target="_blank">26 Facts About The Legend of Zelda That You Probably Did Not Know</a></span> -->
+      <h2>Add your response below. Please also provide your email address. You can favortie your message by clicking the heart! </h2>
+
+      <form action="/zeldaMessages" method="POST">
+        <label for="email">Enter email:</label>
+        <input type="text" placeholder="email@email.com" name="email">
+      <!-- was name = name -->
+      <!-- wasn't sure of email authentication so have text type -->
+        <label for="msg">Enter a fact <span id="charMax">(150 character max):</span></label>
+        <input type="text" placeholder="Type a fact" name="msg">
+        <button type="submit">Add Fact</button>
+      </form>
+
+    
+      <ul class="messages">
+      <% for(var i=0; i<fact.length; i++) {%>
+        <% let color = fact[i].favorited ? 'red' : 'white'%>
+        <li class="message">
+          <span id="clear" class="stack"><%= fact[i].email %></span>
+          <span style="color:<%=color%>" id="clearer" class="stack"><%= fact[i].msg %></span>
+          <!-- <span id="clearest"><%= fact[i].addHeart %></span> -->
+          <span><i class="fa fa-heart" aria-hidden="true">Fav</i></span>
+          <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+        </li>
+      <% } %>
+      </ul>
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+  
+
+</body>
+</html>

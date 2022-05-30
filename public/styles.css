@@ -1,0 +1,137 @@
+body{
+  background: white;
+  background-image: url('https://i.pinimg.com/originals/d2/c9/08/d2c908f7404aea21fb8e5b676976461c.jpg');
+
+/* 
+  https://cdn.videogamesblogger.com/wp-content/uploads/2011/08/the-legend-of-zelda-wallpaper-master-sword-link-to-the-past.jpg */
+  /* background: linear-gradient(to right, #dd3e54, #6be585 ); */
+  margin: 0;
+  background-size: 1900px auto;
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+}
+
+/* .msgColor{
+  color: crimson;
+} */
+
+h3{
+  margin-top: 40px;
+  font-size: 1.5rem;
+  color: black;
+  text-align: left;
+}
+
+/************** top section with form ***********/
+#addFact{
+  /* background: rgba(255, 255, 255, 0.75); */
+  /* height: 800px; */
+  width: 70%;
+  margin-left: 15%;
+  display: inline-block;
+  margin-top: 5%;
+
+}
+
+
+#top{
+  color: black;
+  text-align: center;
+  margin-left: 15%;
+  margin-bottom: -3%;
+  width: 50%;
+}
+
+#colorB{
+  color: black;
+}
+
+#topSize{
+  font-size: .9rem;
+}
+
+.welcome{
+  color: black;
+  font-weight: bolder;
+}
+/* main{
+  margin-right: 100px;
+
+} */
+
+#quote{
+  background: rgb(100, 164, 97);
+}
+
+h1{
+  margin: 0;
+  text-align: center;
+}
+
+#charMax{
+  font-weight: bolder;
+  font-style: italic;
+}
+
+/***************** add a random fact section **************/
+
+h2{
+  font-size: 1.2rem;
+}
+
+.thread{
+  width: 60%;
+  border-bottom: black 2px solid;
+}
+
+.stack{
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+
+li {
+  /* background: green; */
+  background-image: url(https://wallpapercave.com/wp/wp3204898.png);
+  background-size: cover;
+  height: 200px;
+  border: 2px solid #c6cebf;
+  border-radius: 5%;
+  
+  color: white;
+  font-size: 1.2rem;
+
+  overflow: hidden;
+
+  margin: 2%;
+  padding: 10px;
+  
+}
+
+.fa.fa-trash{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+
+ul.messages{
+  display: grid;
+  grid-template-columns: repeat(3, 50%);
+  width: 50%;
+  margin-left: 0;
+  padding-left: 0;
+  
+}
+
+.messages{
+  /* list-style-image: url("icons8-triforce-32.png"); */
+  font-size: 1.5rem;
+  /* list-style-position:; */
+}
+
+
+.color{
+  background-color: #ad9613;
+}
