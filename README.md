@@ -10,6 +10,7 @@ Help this user out with their quest on the N64 in the Legend of Zelda: Ocarina o
 
 1. Clone repo
 2. run `npm install`
+3. Add your own MongoDB credentials - please reach out with any questions. 
 
 ## Usage
 
