@@ -7,8 +7,8 @@ const MongoClient = require('mongodb').MongoClient
 var db, collection;
 
 // set DB as a variable
-const url = "mongodb+srv://kaid23:GZM5Yj5TBF03wgsJ@cluster0.v4oii.mongodb.net/?retryWrites=true&w=majority";
-const dbName = "Zelda2";
+const url = "";
+const dbName = "";
 
 // API --> listening and generating a response.
 // line 15-22 sets up mongo database
